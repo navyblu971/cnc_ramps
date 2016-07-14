@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>config.h</itemPath>
+      <itemPath>coolant_control.h</itemPath>
+      <itemPath>cpu_map.h</itemPath>
+      <itemPath>defaults.h</itemPath>
+      <itemPath>eeprom.h</itemPath>
+      <itemPath>fastio.h</itemPath>
+      <itemPath>gcode.h</itemPath>
+      <itemPath>limits.h</itemPath>
+      <itemPath>motion_control.h</itemPath>
+      <itemPath>nuts_bolts.h</itemPath>
+      <itemPath>planner.h</itemPath>
+      <itemPath>print.h</itemPath>
+      <itemPath>probe.h</itemPath>
+      <itemPath>protocol.h</itemPath>
+      <itemPath>ramps.h</itemPath>
+      <itemPath>report.h</itemPath>
+      <itemPath>serial.h</itemPath>
+      <itemPath>settings.h</itemPath>
+      <itemPath>spindle_control.h</itemPath>
+      <itemPath>stepper.h</itemPath>
+      <itemPath>system.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>coolant_control.c</itemPath>
+      <itemPath>eeprom.c</itemPath>
+      <itemPath>gcode.c</itemPath>
+      <itemPath>limits.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>motion_control.c</itemPath>
+      <itemPath>nuts_bolts.c</itemPath>
+      <itemPath>planner.c</itemPath>
+      <itemPath>print.c</itemPath>
+      <itemPath>probe.c</itemPath>
+      <itemPath>protocol.c</itemPath>
+      <itemPath>report.c</itemPath>
+      <itemPath>serial.c</itemPath>
+      <itemPath>settings.c</itemPath>
+      <itemPath>spindle_control.c</itemPath>
+      <itemPath>stepper.c</itemPath>
+      <itemPath>system.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>GRBL_RAMPS1_4.ino</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>README.md</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>avr|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>/home/arsi/arduino-1.0.5/hardware/tools/avr/lib/gcc/avr/4.3.2/include</pElem>
+          </incDir>
+          <commandLine>-Os -Wall -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=100</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>/home/arsi/arduino-1.0.5/hardware/tools/avr/lib/gcc/avr/4.3.2/include</pElem>
+            <pElem>/home/arsi/arduino-1.0.5/hardware/arduino/cores/robot</pElem>
+            <pElem>/home/arsi/arduino-1.0.5/hardware/arduino/variants/mega</pElem>
+          </incDir>
+          <commandLine>-Os -Wall -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=100</commandLine>
+        </ccTool>
+        <linkerTool>
+          <commandlineTool>avr-g++</commandlineTool>
+          <commandLine>-lc -lm -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=100 /ssd/NetBeansProjects/AVR_CORE/dist/Debug/avr-Linux-x86/libavr_core.a -Wl -lc</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coolant_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="coolant_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpu_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defaults.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="eeprom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="eeprom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fastio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gcode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gcode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="limits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="limits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="motion_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="motion_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nuts_bolts.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nuts_bolts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="planner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="planner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="print.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="probe.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="probe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="protocol.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="protocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ramps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="report.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="report.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="serial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="serial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="settings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="spindle_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="spindle_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stepper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stepper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="system.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="system.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coolant_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="coolant_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpu_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defaults.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="eeprom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="eeprom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fastio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gcode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gcode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="limits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="limits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="motion_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="motion_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nuts_bolts.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nuts_bolts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="planner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="planner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="print.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="probe.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="probe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="protocol.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="protocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ramps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="report.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="report.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="serial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="serial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="settings.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="spindle_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="spindle_control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stepper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stepper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="system.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="system.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
